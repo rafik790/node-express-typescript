@@ -3,9 +3,3 @@ os: linux
 files:
   - source: /
     destination: /home/nodeapp/node-express-typescript
-hooks:
-  BeforeInstall:
-    - location: stop_server.sh
-  AfterInstall: 
-    - location: start_server.sh
-      timeout: 300
