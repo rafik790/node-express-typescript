@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/node-express-typescript
+    destination: /home/nodeapp/node-express-typescript
 hooks:
   BeforeInstall:
     - location: stop_server.sh
